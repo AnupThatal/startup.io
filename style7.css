@@ -1,0 +1,25 @@
+body{
+    background-image:url("header.jpg");
+    background-size: cover;
+}
+
+H1{
+    color:ivory;
+    margin-left:390px;
+    margin-top:320px;
+    font-size:40px;
+}
+
+button{
+    margin-left:630px;
+    margin-top:150px;
+    cursor:grab;
+    height:30px;
+    width:70px;
+    background-color: red;
+    transition: all 1s ease-out;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
